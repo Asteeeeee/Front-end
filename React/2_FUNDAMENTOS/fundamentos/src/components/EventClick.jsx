@@ -12,7 +12,8 @@ const renderSomething = (x) => {
     } else {
         return <h1>Renderizando outra coisa!</h1>;
     }
-}
+};
+  
   return (
     <div>
       <div> 

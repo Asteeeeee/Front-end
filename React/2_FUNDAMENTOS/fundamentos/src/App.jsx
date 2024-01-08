@@ -4,6 +4,7 @@ import './App.css'
 // 2 - importando componente
 import FirstComponent from "./components/FirstComponent.jsx"
 import MyComponente from './components/MyComponente';
+import UIButton  from './components/Button/Button';
 
 // 4 - template expression
 import TemplateExpression from './components/TemplateExpression';
@@ -20,6 +21,7 @@ function App() {
       <TemplateExpression/>
       <MyComponente />
       <EventClick />
+      <UIButton />
     </div>
   )
 }
